@@ -1,0 +1,40 @@
+﻿@model IEnumerable<vtv.Models.nhanvien>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Sdt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Diachi)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sdt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Diachi)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Tennhanvien }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Tennhanvien }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Tennhanvien })
+        </td>
+    </tr>
+}
+
+</table>
