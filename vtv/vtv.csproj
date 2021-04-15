@@ -149,20 +149,11 @@
     <Compile Include="Migrations\202103181136107_create_table_khachhangs1.Designer.cs">
       <DependentUpon>202103181136107_create_table_khachhangs1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202104060246023_Create_Table_Student.cs" />
-    <Compile Include="Migrations\202104060246023_Create_Table_Student.Designer.cs">
-      <DependentUpon>202104060246023_Create_Table_Student.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202104060310557_create_table_student.cs" />
-    <Compile Include="Migrations\202104060310557_create_table_student.Designer.cs">
-      <DependentUpon>202104060310557_create_table_student.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModel.cs" />
     <Compile Include="Models\C__MigrationHistory.cs" />
     <Compile Include="Models\khachhang.cs" />
     <Compile Include="Models\Model1.cs" />
-    <Compile Include="Models\Model2.cs" />
     <Compile Include="Models\nhanvien.cs" />
     <Compile Include="Models\person.cs" />
     <Compile Include="Models\student.cs" />
@@ -594,12 +585,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103181136107_create_table_khachhangs1.resx">
       <DependentUpon>202103181136107_create_table_khachhangs1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202104060246023_Create_Table_Student.resx">
-      <DependentUpon>202104060246023_Create_Table_Student.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202104060310557_create_table_student.resx">
-      <DependentUpon>202104060310557_create_table_student.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

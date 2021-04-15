@@ -14,7 +14,6 @@ namespace vtv.Models
         public virtual DbSet<nhanvien> Nhanviens { get; set; }
         public virtual DbSet<khachhang> Khachhangs { get; set; }
         public virtual DbSet<person> Persons  { get; set; }
-        public virtual DbSet<student> Students { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
